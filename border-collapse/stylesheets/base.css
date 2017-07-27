@@ -1,0 +1,105 @@
+body {
+  font-family: "Helvetia", sans-serif;
+  background: #efefef;
+}
+header {
+  overflow: auto; zoom: 1; /* clearfix */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+header h1 {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px; }
+header ul {
+  float: right;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+header ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+header ul li a {
+  font-size: 13px;
+  line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+section#main {
+  padding: 20px;
+}
+h5 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+.label {
+  display: inline;
+  background: #aaa;
+  padding: 2px 6px;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  vertical-align: baseline;
+  border-radius: 4px;
+}
+.missing {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.projects div {
+  margin-bottom: 10px;
+}
+.result {
+  margin: 30px 0;
+  padding: 0 0 40px 0;
+  border-bottom: 1px solid #ccc;
+}
+.result:last-child {
+  margin-bottom: 0;
+}
+.result img {
+  vertical-align: top;
+  margin-right: 10px;
+  border: 1px solid #aaa;
+  max-width: 300px;
+}
+.back-to-top {
+  padding-top: 30px;
+}
+.back-to-top a {
+  color: blue;
+}
+form {
+  width: 500px;
+}
+form input {
+  padding: 5px;
+  width: 400px;
+  margin: 0px 0px 10px 0px;
+  font-size: 1.1em;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+}
+form input.submit-button {
+  margin-left: 65px;
+  width: 100px;
+  border-radius: 2px;
+}
+form label {
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  width: 50px;
+  padding-top: 5px;
+}
